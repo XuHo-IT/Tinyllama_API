@@ -4,12 +4,20 @@ It is optimized for low resource usage and performs efficiently with less CPU an
 
 ✨ Features
 Lightweight and fast with tinyllama:latest
-
 Simple chat endpoint
-
 Supports system prompts for behavior customization
-
 Easy to integrate into any frontend or desktop app
 
+
+▶️ Getting Started
+First, make sure the model is pulled and served:
+```bash
+ollama run tinyllama / ollama pull tinyllama
+```
+Once started, Ollama serves a local HTTP API at
+```bash
+http://localhost:11434.
+```
+
 🛠️ Customization
-You can personalize the assistant’s behavior by modifying the system prompt in the API controller or service class.
+You can personalize the assistant’s behavior by modifying the system prompt by yourself.
